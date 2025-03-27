@@ -3,8 +3,9 @@ import { useParams } from "react-router-dom";
 function ProductoDetalle() {
   const { productoId } = useParams();
   const productos = [
-    { id: 1, nombre: "iPhone 12", descripcion: "Descripción del iPhone 12" },
-    { id: 2, nombre: "Samsung Galaxy", descripcion: "Descripción del Galaxy" }
+    { id: 1, nombre: " iPhone 15 Pro Max", descripcion: "Pantalla: 6.7 pulgadas OLED Super Retina XDR" },
+    { id: 2, nombre: "Samsung Galaxy S23 Ultra", descripcion: "Procesador: Snapdragon 8 Gen 2" }
+    { id: 3, nombre: "Xiaomi 13 Pro", descripcion: "Almacenamiento: 128GB, 256GB, 512GB" }
   ];
 
   const producto = productos.find(p => p.id === parseInt(productoId));

@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function Categorias() {
   const categorias = [
-    { id: 1, nombre: "Electrónica" },
+    { id: 1, nombre: "Electronica" },
     { id: 2, nombre: "Ropa" },
-    { id: 3, nombre: "Hogar" }
+    { id: 3, nombre: "Casa" }
   ];
 
   return (
